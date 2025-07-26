@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Netflix-Category</title>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body class="cpage">  
+  <div class="header">
+    <img src="assets/image/logo.svg" class="logo" alt="Netflix Logo" />
+    <a href="index.html" class="btn">Log Out</a></div>
+  </div>
+  <div class="cat">
+     <a href="action.html"><div class="photo">Action</div></a>
+     <a href="comedy.html"><div class="photo">Comedy</div></a>
+     <a href="emotional.html"><div class="photo">Emotional</div></a>
+     <a href="devotional.html"><div class="photo">Devotional</div></a>
+     <a href="sports.html"><div class="photo">sports</div></a>
+     <a href="kids.html"><div class="photo">Kids</div></a>
+  </div>   
+  <div class="menu nm" style="background-color: black;">
+      <a href="home.html" class="cur"><i class="fas fa-home"></i><span>Home</span></a>
+      <a href="category.html" class="active cur"> <i class="fas fa-bars"></i><span>Category</span></a>
+      <a href="about.html" class="cur"><i class="fas fa-users"></i>About Us</a>
+  </div> 
+</body>
+</html>
